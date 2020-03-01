@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4869484835829989948}
   - component: {fileID: 791562706837020091}
   - component: {fileID: -7769029101316138328}
+  - component: {fileID: 9003068766708704923}
   m_Layer: 0
   m_Name: Zucchini
   m_TagString: Untagged
@@ -94,3 +95,44 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af657d04f8bac6244b4c348fb2ce871d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  projectileSpeed: 10
+  damage: 50
+--- !u!60 &9003068766708704923
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5843885323369144779}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.56, y: 0.56}
+    newSize: {x: 0.56, y: 0.56}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.24738288, y: 0.2691276}
+      - {x: -0.28372073, y: 0.20575428}
+      - {x: -0.26912785, y: 0.13815427}
+      - {x: -0.22553754, y: 0.11630845}
+      - {x: -0.0946033, y: 0.056435585}
+      - {x: 0.016481161, y: -0.023115873}
+      - {x: 0.18198204, y: -0.27633238}
+      - {x: 0.24328661, y: -0.27184582}
+      - {x: 0.2827177, y: -0.21476638}
+      - {x: 0.25553727, y: -0.0990262}
+      - {x: 0.17835689, y: 0.026510954}
+      - {x: 0.1001122, y: 0.12323046}
+      - {x: -0.029026508, y: 0.226511}
+      - {x: -0.16154194, y: 0.27999997}
