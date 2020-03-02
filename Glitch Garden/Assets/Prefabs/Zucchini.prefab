@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 791562706837020091}
   - component: {fileID: -7769029101316138328}
   - component: {fileID: 9003068766708704923}
+  - component: {fileID: 726251066}
   m_Layer: 0
   m_Name: Zucchini
   m_TagString: Untagged
@@ -136,3 +137,24 @@ PolygonCollider2D:
       - {x: 0.1001122, y: 0.12323046}
       - {x: -0.029026508, y: 0.226511}
       - {x: -0.16154194, y: 0.27999997}
+--- !u!50 &726251066
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5843885323369144779}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
