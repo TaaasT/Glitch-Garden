@@ -192,7 +192,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e61c0fc763022644b1acf5c02523004, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectile: {fileID: 0}
+  projectile: {fileID: 2506937603044160846, guid: 04e9b719ac7e98f4f8f12d2baef52e9f,
+    type: 3}
   gun: {fileID: 3949113569468233177}
 --- !u!61 &6053173885348007489
 BoxCollider2D:
