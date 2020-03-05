@@ -24,14 +24,14 @@ public class LevelLoader : MonoBehaviour
         yield return new WaitForSeconds(timeToWait);
         LoadNextScene();
     }
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     public void LoadNextScene()
     {
         SceneManager.LoadScene(currentSceneIndex + 1);
+    }
+
+    public void LoadYouLose()
+    {
+        SceneManager.LoadScene("Lose Screen");
     }
 }
